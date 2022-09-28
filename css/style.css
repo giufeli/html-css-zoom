@@ -7,11 +7,9 @@
 body{
     background-color: black;
     font-family: 'Roboto', sans-serif;
-
 }
 
 .container-principale{
-    background-color: orange;
     position: absolute;
     display: flex;
     flex-wrap: wrap;
@@ -25,14 +23,34 @@ body{
     padding-bottom: 10px;
 }
 
-.box-view{
+.box-view1{
     position: fixed;
     position: absolute;
     right: 0;
-    padding-right: 20px;
-    padding-top: 20px;
+    margin-right: 70px;
+    margin-top: 20px;
+    padding: 7px;
+    background-color: rgb(61, 61, 61);
+    border-radius: 7px;
     z-index: 1;
-    
+
+}
+
+
+.box-view2{
+    position: fixed;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    margin-top: 20px;
+    z-index: 1;
+    padding: 7px;
+    background-color: rgb(61, 61, 61);
+    border-radius: 7px;
+}    
+
+.container-box-view{
+    background-color: aqua;
 }
 
 .speaker-view{
@@ -40,7 +58,6 @@ body{
 }
 
 .blocco{
-    background-color: aqua;
     width: calc(95%/7);
     max-height: calc(95%/5);
     margin: 5px;
@@ -57,17 +74,17 @@ body{
     position: absolute;
     bottom: 10px;
     left: 0;
-    background-color: rgba(0, 0, 0, 7)
+    background-color: rgba(0, 0, 0, 0.5)
     
 }
 
 .name{
-    font-size: 20px;
+    font-size: 15px;
     color: white;
 }
 
 .nav-bar{
-    background-color: chartreuse;
+    background-color: rgba(34,34,34,255);
     position: fixed;
     bottom: 0;
     width: 100vw;
@@ -75,24 +92,23 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 }
 
 
 .box-nav1{
-    background-color: tomato;
     height: 8vh;
     display: flex;
+   
 }
 
 .box-nav2{
-    background-color: tomato;
     height: 8vh;
     display: flex;
 }
 
 .box-nav3{
-    background-color: gray;
+    background-color: rgb(141, 141, 141, 0.5);
     color: red;
     height: 8vh;
     display: flex;
@@ -109,10 +125,16 @@ body{
 }
 
 .end-meeting{
-    color: red;
+    color: rgb(186, 13, 13);
     font-size: 15px;
+    font-weight: 900;
 }
 
+
+.box-nav1 i{
+    font-size: 25px;
+    padding-bottom: 5px;
+}
 
 .box-nav2 i{
     font-size: 25px;
@@ -121,10 +143,10 @@ body{
 
 
 .box-icon-green i{
-    color: green;
+    color: rgb(9, 255, 0);
 }
 
-.box-icon span{
+.box-icon a span{
     font-size: 15px;
 }
 
