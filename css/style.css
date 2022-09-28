@@ -23,34 +23,20 @@ body{
     padding-bottom: 10px;
 }
 
-.box-view1{
-    position: fixed;
-    position: absolute;
-    right: 0;
-    margin-right: 70px;
-    margin-top: 20px;
+.box-view{
     padding: 7px;
     background-color: rgb(61, 61, 61);
     border-radius: 7px;
-    z-index: 1;
-
+    margin-right: 10px;
 }
 
 
-.box-view2{
-    position: fixed;
-    position: absolute;
-    right: 0;
-    margin-right: 20px;
-    margin-top: 20px;
-    z-index: 1;
-    padding: 7px;
-    background-color: rgb(61, 61, 61);
-    border-radius: 7px;
-}    
-
 .container-box-view{
-    background-color: aqua;
+    position: fixed;
+    display: flex;
+    right: 0;
+    margin-top: 20px;
+    z-index: 1; 
 }
 
 .speaker-view{
@@ -99,7 +85,6 @@ body{
 .box-nav1{
     height: 8vh;
     display: flex;
-   
 }
 
 .box-nav2{
