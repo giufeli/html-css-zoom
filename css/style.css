@@ -57,14 +57,13 @@ body{
     position: absolute;
     bottom: 10px;
     left: 0;
-    background-color: rgba(0, 0, 0, 1000)
+    background-color: rgba(0, 0, 0, 7)
     
 }
 
 .name{
     font-size: 20px;
     color: white;
-    
 }
 
 .nav-bar{
